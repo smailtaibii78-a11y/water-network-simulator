@@ -19,3 +19,6 @@ net.add_node(n2)
 net.add_pipe(p1)
 
 print(net)
+A = net.build_incidence_matrix()
+print("Incidence Matrix:")
+print(A)
