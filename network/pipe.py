@@ -11,7 +11,7 @@ class Pipe:
         self.diameter = 0.3
         self.roughness = 0.0001
 
-        # Register this pipe in connected nodes
+        p1 = Pipe(1, start_node=1, end_node=2, length=500, diameter=0.3)
         self.start_node.add_pipe(self)
         self.end_node.add_pipe(self)
 
