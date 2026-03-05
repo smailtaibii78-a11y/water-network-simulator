@@ -3,8 +3,7 @@ class Pipe:
     Represents a pipe connecting two nodes in the network.
     """
 
-    def __init__(self, pipe_id, start_node, end_node,
-                 length, diameter, roughness):
+    p1 = Pipe(1, start_node=1, end_node=2, length=500, diameter=0.3, roughness=0.0001)
         self.id = pipe_id
         self.start_node = start_node
         self.end_node = end_node
