@@ -5,11 +5,11 @@ class Pipe:
 
     p1 = Pipe(1, start_node=1, end_node=2, length=500, diameter=0.3, roughness=0.0001)
         self.id = pipe_id
-        self.start_node = start_node
-        self.end_node = end_node
-        self.length = length
-        self.diameter = diameter
-        self.roughness = roughness
+        self.start_node = 1
+        self.end_node = 2
+        self.length = 500
+        self.diameter = 0.3
+        self.roughness = 0.0001
 
         # Register this pipe in connected nodes
         self.start_node.add_pipe(self)
